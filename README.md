@@ -5,7 +5,7 @@ _SimplestWebComponent_ es una clase extensible de JavaScript extremadamente livi
 
 ## Liviana
 
-Un archivo de menos de 2KB sin minificación.
+Un archivo de 3,6KB con comentarios y sin minificación.
 
 ## Diseño OOP Coherente
 
