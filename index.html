@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SimplestWebComponent test</title>
+    <script src="SimplestWebComponent.js"></script>
+    <script src="test.js"></script>
+    <style media="screen">
+        nav {
+            padding:8px;
+            margin-bottom:0.5em;
+            background-color:#eee;
+        }
+        nav>input{
+            width:19em;
+        }
+        div#message-container{
+            padding:0.5em;
+            border:1px solid lightgray;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>SimplestWebComponent test</h1>
+    <p>This test shows the easiest way to define and use Web components using the 'SimplestWebComponent' extensible class.</p>
+    <p>Use the next toolbar to create new messages and click on them to remove them.</p>
+    <nav>
+        <button onclick='addMessage();'>Add new message</button>
+        <select id='message-type'>
+            <option value="message-info">Info message</option>
+            <option value="message-warning">message-warning</option>
+            <option value="message-error">message-error</option>
+            <option value="message-success">message-success</option>
+        </select>
+        <input type="text" id="message-message" value="This message was created programatically">
+    </nav>
+    <div id='message-container'>
+        <span id='message-count'></span>
+        <message-box data-message='Info message'></message-box>
+        <message-box data-message-type='message-warning' data-message='Warning message'></message-box>
+        <message-box data-message-type='message-error' data-message='Error message'></message-box>
+        <message-box data-message-type='message-success' data-message='Success message'></message-box>
+    </div>
+
+    <script type="text/javascript">
+        function addMessage(){
+            document.querySelector('div').appendChild(document.createElement('message-box')).onCreate({
+                'messageType':document.getElementById('message-type').value,
+                'message':document.getElementById('message-message').value
+            });
+        }
+    </script>
+  </body>
+</html>
