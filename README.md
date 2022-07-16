@@ -107,5 +107,5 @@ La clase suma a las propiedades y métodos implementadas en _Web Components:_
 
 # ​Tutorial
 
-La mejor forma de comprender la simplicidad y coherencia en el uso de SimplestWebComponent es descargando el archivo .zip y explorando y leyendo detalladamente los comentarios de la [clase base](/SimplestWebComponent.js), el [index.html](/index.html) y [test.js](/test.js); para previsualizar el ejemplo has clic [aquí](https://htmlpreview.github.io/?https://github.com/leduardocorreal/SimplestWebComponent/blob/main/index.html)
+La mejor forma de comprender la simplicidad y coherencia en el uso de SimplestWebComponent es descargando el archivo .zip y explorando y leyendo detalladamente los comentarios de la [clase base](/SimplestWebComponent.js), el [index.html](/index.html) y [test.js](/test.js); para previsualizar el ejemplo haz clic [aquí](https://htmlpreview.github.io/?https://github.com/leduardocorreal/SimplestWebComponent/blob/main/index.html)
 
