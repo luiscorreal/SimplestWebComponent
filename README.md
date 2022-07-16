@@ -104,5 +104,5 @@ La clase suma a las propiedades y métodos implementadas en _Web Components:_
 
 # ​Tutorial
 
-La forma más inmediata de comprender la simplicidad y coherencia en el uso de SimplestWebComponent es a través de su uso; descargue el archivo .zip, explore la clase pero muy especialmente explore el archivo test.js y lea los comentarios detallados.
+La mejor forma de comprender la simplicidad y coherencia en el uso de SimplestWebComponent es descargando el archivo .zip y explorando y leyendo detalladamente los comentarios de la [clase base](/SimplestWebComponent.js), el [index.html](/index.html) y [test.js](/test.js).
 
