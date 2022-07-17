@@ -1,6 +1,9 @@
 # SimplestWebComponent
 _SimplestWebComponent_ es una clase extensible de JavaScript extremadamente liviana para definir Web Components de forma coherente y simplificada.
 
+# ​Licencia 
+[Attribution 4.0 International CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)
+
 # ​Características
 
 ## Liviana
@@ -101,9 +104,6 @@ La clase suma a las propiedades y métodos implementadas en _Web Components:_
 | --- | --- | --- |
 | $ | selector | Forma abreviada de _querySelector_ haciendo uso de _this.shadowRoot_ |
 | $All | selector | Forma abreviada de _querySelectorAll_ haciendo uso de _this.shadowRoot_ |
-
-# ​Licencia 
-[Attribution 4.0 International CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)
 
 # ​Tutorial
 
