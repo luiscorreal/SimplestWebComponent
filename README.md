@@ -4,6 +4,9 @@ _SimplestWebComponent_ es una clase extensible de JavaScript extremadamente livi
 # ​Licencia 
 [Attribution 4.0 International CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)
 
+# Demo
+[SimplestWebComponent demo](https://htmlpreview.github.io/?https://github.com/leduardocorreal/SimplestWebComponent/blob/main/index.html)
+
 # ​Características
 
 ## Liviana
@@ -107,5 +110,5 @@ La clase suma a las propiedades y métodos implementadas en _Web Components:_
 
 # ​Tutorial
 
-La mejor forma de comprender la simplicidad y coherencia en el uso de SimplestWebComponent es descargando el archivo .zip y explorando y leyendo detalladamente los comentarios de la [clase base](/SimplestWebComponent.js), el [index.html](/index.html) y [test.js](/test.js); para previsualizar el ejemplo haz clic [aquí](https://htmlpreview.github.io/?https://github.com/leduardocorreal/SimplestWebComponent/blob/main/index.html)
+La mejor forma de comprender la simplicidad y coherencia en el uso de SimplestWebComponent es descargando el archivo .zip y explorando y leyendo detalladamente los comentarios de la [clase base](/SimplestWebComponent.js), el [index.html](/index.html) y [test.js](/test.js).
 
