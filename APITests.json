@@ -40,6 +40,13 @@
 "<div id='boo'>Foo</div>",
 "this.parentNode.$('#boo').innerText='New foo';"
 ],
+  
+[
+"HTMLElement Method, Global Function","$All(selector)",
+"Returns nodes or null from querySelectorAll.",
+"<div id='boo'><span>Foo1 </span><span>Foo2 </span><span>Foo3 </span></div>",
+"this.parentNode.$All('#boo>span').forEach(function(item,index){item.innerText='New foo'+index;})"
+],
 
 [
 "HTMLElement Method","getCompStyle(propertyName)",
