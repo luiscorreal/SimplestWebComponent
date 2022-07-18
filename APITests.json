@@ -51,14 +51,8 @@
 [
 "HTMLElement Method","insertAfter((newNode, referenceNode)",
 "Inserts a node after a reference node as a child of this",
-"<div id='parent-node-1'>
-    <span>First </span>
-    <span style='background-color:orange;' id='reference-to-insert'>I am the reference </span>
-    <span>Last </span>
+"<div id='parent-node-1'><span>First </span><span style='background-color:orange;' id='reference-to-insert'>I am the reference </span><span>Last </span>
 </div>",
-"var nNode=document.createElement('span');
-        nNode.innerHTML=new Date().toLocaleTimeString();
-        nNode.style='border:1px solid black;margin:4px;padding:4px;';
-    this.parentNode.$('#parent-node-1').insertAfter(nNode,this.parentNode.$('#reference-to-insert'));"
+"var nNode=document.createElement('span');nNode.innerHTML=new Date().toLocaleTimeString();nNode.style='border:1px solid black;margin:4px;padding:4px;';this.parentNode.$('#parent-node-1').insertAfter(nNode,this.parentNode.$('#reference-to-insert'));"
 ]
 ]
