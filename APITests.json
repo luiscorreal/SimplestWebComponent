@@ -1,3 +1,6 @@
+{
+  "type";"test-list",
+  "data":
 [
 [
 "Property","$Id",
@@ -62,3 +65,4 @@
 "var nNode=document.createElement('span');nNode.innerHTML=new Date().toLocaleTimeString();nNode.style='border:1px solid black;margin:4px;padding:4px;';this.parentNode.$('#parent-node-1').insertAfter(nNode,this.parentNode.$('#reference-to-insert'));"
 ]
 ]
+}
