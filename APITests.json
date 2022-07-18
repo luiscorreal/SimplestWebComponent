@@ -45,7 +45,7 @@
 "HTMLElement Method, Global Function","$All(selector)",
 "Returns nodes or null from querySelectorAll.",
 "<div id='boo'><span>Foo1</span> <span>Foo2</span> <span>Foo3</span></div>",
-"this.parentNode.$All('#boo>span').forEach(function(item,index){item.innerText='New foo'+index;})"
+"this.parentNode.$All('#boo>span').forEach(function(item,index){item.style.opacity=index*0.3;})"
 ],
 
 [
