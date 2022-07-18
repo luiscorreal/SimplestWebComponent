@@ -1,0 +1,80 @@
+[
+[
+'Property','$Id',
+'Returns a element reference or null, searching the global "id".',
+"Lorem ipsum bis leggit <span id='small-container'>Small container</span> into big element",
+function(e){
+    $Id.smallContainer.style.color='red';
+}
+],
+
+[
+'Property','$Class',
+'Returns a element reference or null, searching the global "className".',
+"<div class='big-container'>Lorem ipsum bis leggit <span id='small-container'>Small container</span> into big element</div>",
+function(e){
+    $Class.bigContainer.style.fontWeight='bold';
+}
+],
+
+[
+'HTMLElement Property','getQuerySelector',
+'Returns a correct selector string of element.',
+"<div id='console1'>...</div>",
+function(e){
+    $Id.console1.innerText=this.parentNode.getQuerySelector;
+}
+],
+
+[
+'HTMLElement Property','getSiblingIndex',
+'Returns child index of element.',
+"<div id='console2'>...</div>",
+function(e){
+    $Id.console2.innerText=this.parentNode.getSiblingIndex;
+}
+],
+
+[
+'Global Function','geUserLang()',
+'Returns current browser lang.',
+"<div id='console3'>...</div>",
+function(e){
+    $Id.console3.innerText=getUserLang();
+}
+],
+
+[
+'HTMLElement Method, Global Function','$(selector)',
+'Returns node or null from querySelector.',
+"<div id='boo'>Foo</div>",
+function(e){
+    this.parentNode.$('#boo').innerText='New foo';
+}
+],
+
+[
+'HTMLElement Method','getCompStyle(propertyName)',
+'Returns the real computed css property of element.',
+"<div id='console4'>...</div>",
+function(e){
+    $Id.console4.innerText=this.getCompStyle('background-color');
+}
+],
+
+[
+'HTMLElement Method','insertAfter((newNode, referenceNode)',
+'Inserts a node after a reference node as a child of this',
+`<div id='parent-node-1'>
+    <span>First </span>
+    <span style='background-color:orange;' id='reference-to-insert'>I am the reference </span>
+    <span>Last </span>
+</div>`,
+function(e){
+    var nNode=document.createElement('span');
+        nNode.innerHTML=new Date().toLocaleTimeString();
+        nNode.style='border:1px solid black;margin:4px;padding:4px;';
+    this.parentNode.$('#parent-node-1').insertAfter(nNode,this.parentNode.$('#reference-to-insert'));
+}
+],
+                        ]
