@@ -1,5 +1,6 @@
 {
   "type":"test-list",
+  "featured-image":"https://blog.gft.com/es/wp-content/uploads/sites/3/2017/03/logo-192x192.png",
   "data":
 [
 [
@@ -43,7 +44,7 @@
 "<div id='boo'>Foo</div>",
 "this.parentNode.$('#boo').innerText='New foo';"
 ],
-  
+
 [
 "HTMLElement Method, Global Function","$All(selector)",
 "Returns nodes or null from querySelectorAll.",
