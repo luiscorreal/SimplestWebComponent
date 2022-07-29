@@ -1,5 +1,8 @@
 {
-  "logo":"https://blog.gft.com/es/wp-content/uploads/sites/3/2017/03/logo-192x192.png",
+  "logo":{
+      "type":"url",
+      "data":"https://blog.gft.com/es/wp-content/uploads/sites/3/2017/03/logo-192x192.png"
+  },
   "tabs":[
     "API":"api.json"
   ]
