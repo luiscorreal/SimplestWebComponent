@@ -13,6 +13,11 @@
           "type":"api-list",
           "name":"API",
           "url":".GitHubRepoViewer/api.json"
+      },
+      {
+          "type":"mark-down",
+          "name":"To do",
+          "url":".GitHubRepoViewer/todo.json"
       }
   ]
 }
