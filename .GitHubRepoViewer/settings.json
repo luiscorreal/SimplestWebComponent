@@ -17,7 +17,7 @@
       {
           "type":"mark-down",
           "name":"To do",
-          "url":".GitHubRepoViewer/todo.json"
+          "url":".GitHubRepoViewer/todo.md"
       }
   ]
 }
