@@ -4,11 +4,8 @@
       "data":"https://blog.gft.com/es/wp-content/uploads/sites/3/2017/03/logo-192x192.png"
   },
   "tabs":[
-      {
-          "type":"mark-down",
-          "name":"Readme",
-          "url":"README.md"
-      },
+      {"type":"repo-readme"},
+      {"type":"repo-tree"},
       {
           "type":"api-list",
           "name":"API",
